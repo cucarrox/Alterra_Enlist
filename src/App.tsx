@@ -8,6 +8,7 @@ import { Outlet } from 'react-router-dom'
 
 // Navbar
 import Navbar from './navbar'
+import Footer from './footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <div className='w-full h-full'>
         <Navbar />
         <Outlet />
+        <Footer />
       </div>
     </>
   )
